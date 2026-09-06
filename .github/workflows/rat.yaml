@@ -34,7 +34,7 @@ jobs:
             run : |
               docker run --rm \
                 -v "${GITHUB_WORKSPACE}/application:/repo" \
-                ghcr.io/gitleaks/gitleaks:latest \
+                zricethezav/gitleaks:latest \
                 detect \
                 -- source=/repo \
                 -- no-git \
