@@ -44,6 +44,6 @@ jobs:
 
       - name: Step 4A - List Scanned Files
         run: |
-          echo "Files inside gitleaks scanning scope :"
+          echo "Files inside gitleaks scanning scope:"
           echo "****************************************"
           find application -type f -print
